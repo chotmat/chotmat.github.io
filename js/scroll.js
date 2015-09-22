@@ -40,3 +40,5 @@ $("a").click(function () {
     $(this).parent().addClass('active');
     return false;
 });
+
+$(window).resize(function(){location.reload();});
